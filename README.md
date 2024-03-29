@@ -32,6 +32,9 @@ tsim.py overlap -h #find intersection of 2 variant lists
 tsim.py merge -h #merge 2 VCFs based on variant list
 ```
 
+**NOTE**: tsim was developed using output from the TOPMed Imputation Server v1.6.6 (Minimac4 for imputation, Eagle v2.4 for phasing, r2 for reference panel). We are aware that there were some recent changes in output format and are working on updating these scripts accordingly.
+
+
 ### Example 
 Before running tsim.py, QC and impute your cohorts separately.
 
