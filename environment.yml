@@ -1,0 +1,13 @@
+name: tsim
+
+channels: 
+    - bioconda
+    - conda-forge
+
+dependencies:
+    - bcftools
+    - tabix
+    - pip
+    - python=3.9
+    - pip:
+        - cyvcf2
