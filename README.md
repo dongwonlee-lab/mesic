@@ -86,7 +86,9 @@ This command assumes that variants have consistent naming scheme across all coho
 - Specify chromosome using `-c` or `--chrom`
 
 ```
-ls *.variant_qc.txt > l.filelist.txt # to create input file
+### to create input file
+ls *.variant_qc.txt > l.filelist.txt
+###
 python tsim.py overlap -l l.filelist.txt -o l.overlap.txt -c 22
 ```
 
@@ -101,7 +103,7 @@ python tsim.py overlap -l l.filelist.txt -o l.overlap.txt -c 22
 echo "a.vcf.gz,l.overlap.txt,a.samples.txt" > l.mergelist.txt
 echo "b.vcf.gz,l.overlap.txt,b.samples.txt" >> l.mergelist.txt
 ###
-python tsim.py merge -l l.mergelist.txt -o merged.vcf.gz -c 22 --snnpsonly
+python tsim.py merge -l l.mergelist.txt -o merged.vcf.gz -c 22 --snpsonly
 ```
 
 5. Impute the merged VCFs.
