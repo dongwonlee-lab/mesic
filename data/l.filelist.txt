@@ -1,0 +1,2 @@
+a.variant_qc.txt
+b.variant_qc.txt
