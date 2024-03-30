@@ -23,7 +23,7 @@ conda activate tsim
 
 ## Usage
 tsim has 4 subcommands.
-You can check the options with the -h flag of mesic.py
+You can check the options with the -h flag of tsim.py
 ```
 tsim.py -h
 tsim.py rsq -h #recalculates Rsq based on selected samples
