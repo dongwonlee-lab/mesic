@@ -21,6 +21,13 @@ conda env create -f environment.yml
 conda activate tsim
 ```
 
+##### Troubleshooting
+If you get an error building wheel for cyvcf2, you can install the package manually with pip after activating the conda environment.
+```
+conda activate tsim
+pip install cyvcf2
+```
+
 ## Usage
 tsim has 4 subcommands.
 You can check the options with the -h flag of tsim.py
