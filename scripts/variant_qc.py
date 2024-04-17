@@ -31,7 +31,7 @@ def load_rsq(rfn, rfilter, rcol, rvarcol, efilter, ecol, r2_drop=0, er2_drop=0, 
                         else:
                             er2_drop = er2_drop+1
                     except:
-                        if er2 != '-':
+                        if er2 != '-' and er2 != '.':
                             logging.debug('%s is not a number' % rsq)
                             wrong_col2 = wrong_col2+1
                         else:
@@ -42,7 +42,7 @@ def load_rsq(rfn, rfilter, rcol, rvarcol, efilter, ecol, r2_drop=0, er2_drop=0, 
                 if count%track_bin == 0:
                     logging.debug('Processed %s variants' % count)
             except:
-                if rsq != '-':
+                if rsq != '-' and rsq != '.':
                     logging.debug('%s is not a number' % rsq)
                     wrong_col1 = wrong_col1+1
             
@@ -82,7 +82,7 @@ def load_maf(mfn, mfilter, mcol, mvarcol, maf_drop=0, track_bin=500000, badcol=1
                 if count%track_bin == 0:
                     logging.debug('Processed %s variants' % count)
             except:
-                if maf != '-':
+                if maf != '-' and maf != '.':
                     logging.debug('%s is not a number' % maf)
                     wrong_col = wrong_col+1
                     
