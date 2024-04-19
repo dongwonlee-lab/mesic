@@ -82,9 +82,8 @@ def load_maf(mfn, mfilter, mcol, mvarcol, maf_drop=0, track_bin=500000, badcol=1
                 if count%track_bin == 0:
                     logging.debug('Processed %s variants' % count)
             except:
-                if maf != '-' and maf != '.':
-                    logging.debug('%s is not a number' % maf)
-                    wrong_col = wrong_col+1
+                logging.debug('%s is not a number' % maf)
+                wrong_col = wrong_col+1
                     
             if wrong_col > badcol:
                 logging.error("Check your column number for MAF (-mc). It doesn't seem right.")
