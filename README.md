@@ -119,4 +119,4 @@ The `rsq` and `qc` functions may also be used after the second stage of imputati
 
 
 ## Please cite paper below
-Anya Greenberg, Kaylia Reynolds, Michelle T McNulty,  Matthew G. Sampson,  Hyun Min Kang,  Dongwon Lee. "Accurate cross-platform GWAS analysis via two-stage imputation." https://www.medrxiv.org/content/10.1101/2024.04.19.24306081v1[https://www.medrxiv.org/content/10.1101/2024.04.19.24306081v1]
+Anya Greenberg, Kaylia Reynolds, Michelle T McNulty,  Matthew G. Sampson,  Hyun Min Kang,  Dongwon Lee. "Accurate cross-platform GWAS analysis via two-stage imputation." https://www.medrxiv.org/content/10.1101/2024.04.19.24306081v1
