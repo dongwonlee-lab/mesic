@@ -1,5 +1,7 @@
 # TSIM: Two-Stage Imputation Method
 
+**NOTE** (23 April 2024): The TOPMed Imputation Server v1.6.6 (Minimac v4-1.0.2 for imputation, Eagle v2.4 for phasing, r2 for reference panel) was used for testing TSIM and generating all results in the paper (see below). Since completing our analyses, the TOPMed Imputation Server has been updated to v1.8.0 (Minimac _v4.1.6_ for imputation, Eagle v2.4 for phasing, _r3_ for reference panel). We have noticed significant discrepancies in imputed genotypes between the two server versions and are  working on identifying the causes and potential solutions for these discrepancies.
+
 ![](tsim.png)
 
 ## Installation
