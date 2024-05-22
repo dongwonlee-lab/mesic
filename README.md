@@ -1,6 +1,8 @@
 # TSIM: Two-Stage Imputation Method
 
-**NOTE** (24 April 2024): The TOPMed Imputation Server v1.6.6 (Minimac v4-1.0.2 for imputation, Eagle v2.4 for phasing, r2 for reference panel) was used for testing TSIM and generating all results in the paper (see below). Since completing our analyses, the TOPMed Imputation Server has been updated to v1.8.0 (Minimac _v4.1.6_ for imputation, Eagle v2.4 for phasing, _r3_ for reference panel). We've found that the r2 filter for high-quality SNPs needs to be recalibrated for this updated reference panel and are currently working on that analysis.
+**NOTE** (22 May 2024): When using TOPMed Imputation Server v.2.0.0 with reference panel version r3, an imputation quality of 0.98 should be used for identifying high-quality SNPs.
+
+**NOTE** (24 April 2024): The TOPMed Imputation Server v1.6.6 (Minimac v4-1.0.2 for imputation, Eagle v2.4 for phasing, r2 for reference panel) was used for testing TSIM and generating all results in the paper (see below). Since completing our analyses, the TOPMed Imputation Server has been updated to v2.0.0 (Minimac _v4.1.6_ for imputation, Eagle v2.4 for phasing, _r3_ for reference panel). We've found that the r2 filter for high-quality SNPs needs to be recalibrated for this updated reference panel and are currently working on that analysis.
 
 
 ![](tsim.png)
